@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/font-awesome.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <title>Portfolio</title>
+</head>
+
+
+<body class="bodyblack">
+    <!-- NAV -->
+    <nav class="navigation" role="navigation" aria-label="Menu">
+        <ul class="nav-black">
+            <li>
+                <a href="../index.html" target="_self"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="nav-logo"></a>
+            </li>
+            <li>
+                <a class="nav-black nav-menu" class="nav-black" href="../index.html" target="_self">Home</a>
+            </li>
+            <li>
+                <a class="nav-black nav-menu nav-active" href="portfolio.html" target="_self">Portfolio</a>
+            </li>
+            <li>
+                <a class="nav-black nav-menu" href="resume.html" target="_self">Resume</a>
+            </li>
+            <li>
+                <a class="nav-black nav-menu" href="contact.html" target="_self">Contact</a>
+            </li>
+            <li>
+                <a class="nav-black social-media-white"  href="https://www.behance.net/IvanaBraz" target="_blank" title="Behance"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a class="nav-black social-media-white"  href="http://linkedin.com/in/ivana-agustina-braz-5bb3a055" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </li>
+            <li title="Instagram">
+                <a class="nav-black social-media-white"  href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- FIN NAV -->
+
+    <!-- PORTFOLIO -->   
+    <div id="portfolio">  
+        <p class="title-1">Portfolio</p>
+        <div class="categories">
+            <button class="btn-portfolio active" onclick="filterSelection('all')">All</button>
+            <button class="btn-portfolio" onclick="filterSelection('graphic')">Graphic</button>
+            <button class="btn-portfolio" onclick="filterSelection('packaging')">Packaging</button>
+            <button class="btn-portfolio" onclick="filterSelection('web')">Web</button>
+            <button class="btn-portfolio" onclick="filterSelection('posters')">Posters</button>
+        </div>
+        <div class="threecolumns">
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_01.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_02.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_03.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_04.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_05.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_06.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_07.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_08.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item graphic">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-graphic_09.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item packaging">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-packaging_01.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item packaging">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-packaging_02.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item packaging">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-packaging_03.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item packaging">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-packaging_04.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_01.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_02.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_03.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_04.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_05.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_06.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_07.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_08.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_09.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item posters">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-posters_10.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item web">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-web_01.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item web">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-web_02.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+            <div class="portfolio-item web">
+                <a href="project-1.html"><img src="../images/img-portfolio/img-web_03.jpg" class="img-responsive" alt="Project Title"></a>
+            </div>
+        </div>
+    </div>
+    <!-- FIN PORTFOLIO -->
+
+    <!-- FOOTER  -->
+    <footer>
+        <div class="footer-container">       
+            <div class="logo-footer">
+                <a href="../index.html" target="_self"><img src="../images/logo2.svg" alt="Ivana Braz logo"></a>
+            </div>
+            <ul class="menu-footer">
+                <li class="menu-footer"><a href="portfolio.html" target="_self">Portfolio</a></li>
+                <li class="menu-footer"><a href="contact.html" target="_self">Contact</a></li>
+            </ul>
+            <div class="newsletter">
+                <p>Subscribe to my newsletter</p><br>
+                <input type="text" placeholder="name@example.com" name="mail" required class="newsletter-email"><button type="submit" value="Submit" class="newsletter-button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </div>
+            <ul class="redes-footer">
+                <li class="redes-footer"><a href="https://www.behance.net/IvanaBraz" target="_blank" title="Behance"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+                <li class="redes-footer"><a href="http://linkedin.com/in/ivana-agustina-braz-5bb3a055" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                <li class="redes-footer" title="Instagram"><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->   
+
+    <!-- SCRIPTS  -->
+    <script src="../js/portfolio.js"></script>
+    <!-- FIN SCRIPTS  -->
+
+</body>
+</html>
