@@ -3,87 +3,140 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="../css/font-awesome.css">
+
+    <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <title>Portfolio</title>
+
+    <title>Resume</title>
 </head>
 
-<body class="bodyblack"> 
-    <!-- NAV -->
-    <nav class="navigation" role="navigation" aria-label="Menu">
-        <ul class="nav-black">
-            <li>
-                <a href="../index.html" target="_self"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="nav-logo"></a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" class="nav-black" href="../index.html" target="_self">Home</a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" href="portfolio.html" target="_self">Portfolio</a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" href="resume.html" target="_self">Resume</a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" href="contact.html" target="_self">Contact</a>
-            </li>
-            <li>
-                <a class="nav-black social-media-white"  href="https://www.behance.net/IvanaBraz" target="_blank" title="Behance"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a class="nav-black social-media-white"  href="http://linkedin.com/in/ivana-agustina-braz-5bb3a055" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </li>
-            <li title="Instagram">
-                <a class="nav-black social-media-white"  href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-    </nav>
-    <!-- FIN NAV -->
 
-    <!-- PROJECT  -->
-    <div class="project-main-container">
-        <div class="project-container-50with">
-            <img src="../images/img-project-1/img-project_01.jpg">
-            <p class="text-title-project">Title</p>
-            <p class="text-base-project"><span class="text-details-project">2021 — Personal work / editorial design / graphic design / art direction</span><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices est non cursus auctor. Nam fermentum, leo et dignissim porta, lacus massa mollis augue, a congue mauris ex eu urna. Ut risus dui, dignissim a pellentesque commodo, posuere nec risus. Nullam ultrices sem et pretium imperdiet. Curabitur justo purus, egestas vel euismod vitae, mollis suscipit magna. Sed ut sem pharetra, volutpat turpis ac, auctor turpis. Donec faucibus facilisis turpis, ac auctor justo fringilla non. Nunc porta nisi viverra, mattis risus at, vestibulum augue. Nam luctus lacus in pretium malesuada. Proin molestie enim et dictum facilisis. Aliquam nec quam metus. Fusce vulputate aliquet libero at dapibus. Maecenas sodales tristique massa vel volutpat. Etiam augue est, congue sed nibh ac, viverra tempus enim. Maecenas quis auctor lacus. Aliquam sed risus vel ipsum sodales auctor.
-            <br>
-            Sed ex risus, faucibus ac nunc ac, commodo hendrerit nisl. Quisque maximus enim quis lacus cursus vestibulum. Praesent ultrices nec velit vel consequat. Quisque ullamcorper et enim nec dapibus. Donec in enim commodo, tincidunt nibh sit amet, sagittis nisi. Suspendisse et leo ornare, molestie ipsum quis, fermentum felis. Nam faucibus euismod tristique.<br>
-            Interested? Let me know →</p>
-            <img class="img-project" src="../images/img-project-1/img-project_02.jpg">
-            <img class="img-project" src="../images/img-project-1/img-project_03.jpg">
-            <img class="img-project" src="../images/img-project-1/img-project_04.jpg">
-            <img class="img-project" src="../images/img-project-1/img-project_05.jpg">
-            <img class="img-project" src="../images/img-project-1/img-project_06.jpg">
-            <img class="img-project" src="../images/img-project-1/img-project_07.jpg">
-        </div>  
-    </div>
-    <!-- FIN PROJECT -->
+<body class="body--dark">
 
-    <!-- FOOTER  -->
-    <footer>
-        <div class="footer-container">       
-            <div class="logo-footer">
-                <img src="../images/logo2.svg" alt="Ivana Braz logo">
+    <!-- ==================== NAVBAR ==================== -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-5">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand d-flex w-50 me-auto"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="w-25"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                    <ul class="navbar-nav w-100 justify-content-center">
+                        <li class="nav-item active px-4">
+                            <a class="nav-link text-light text-uppercase" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light text-uppercase text-decoration-underline" href="../pages/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light text-uppercase" href="../pages/resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light text-uppercase" href="../pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="menu-footer">
-                <li class="menu-footer"><a href="../pages/portfolio.html" target="_self">Portfolio</a></li>
-                <li class="menu-footer"><a href="../pages/contact.html" target="_self">Contact</a></li>
-            </ul>
-            <div class="newsletter">
-                <p>Subscribe to my newsletter</p><br>
-                <input type="text" placeholder="name@example.com" name="mail" required class="newsletter-email"><button type="submit" value="Submit" class="newsletter-button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+        </nav>
+    </header>
+    <!-- ==================== FIN NAVBAR ==================== -->
+
+
+    <!-- ==================== PROJECT ==================== -->
+    <section class="project p-5">
+        <div class="container">
+            <!-- GRILLA -->
+            <div class="col-lg-12 col-md-12 col-sm-12 m-auto">
+                <img class="img-fluid" src="../images/img-project-1/img-project_01.jpg">
             </div>
-            <ul class="redes-footer">
-                <li class="redes-footer"><a href="https://www.behance.net/IvanaBraz" target="_blank" title="Behance"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
-                <li class="redes-footer"><a href="http://linkedin.com/in/ivana-agustina-braz-5bb3a055" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                <li class="redes-footer" title="Instagram"><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
+            <div class="col-lg-8 col-md-8 col-sm-12 m-auto">
+                <h1 class="text-light pt-5">Project title</h1>
+                <p class="text-light pt-3 pb-5"><span class="text-secondary fs-6">2021 — Personal work / editorial design / graphic design / art direction</span><br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices est non cursus auctor. Nam fermentum, leo et dignissim porta, lacus massa mollis augue, a congue mauris ex eu urna. Ut risus dui, dignissim a pellentesque commodo, posuere nec risus. Nullam ultrices sem et pretium imperdiet. Curabitur justo purus, egestas vel euismod vitae, mollis suscipit magna. Sed ut sem pharetra, volutpat turpis ac, auctor turpis. Donec faucibus facilisis turpis, ac auctor justo fringilla non. Nunc porta nisi viverra, mattis risus at, vestibulum augue. Nam luctus lacus in pretium malesuada. Proin molestie enim et dictum facilisis. Aliquam nec quam metus. Fusce vulputate aliquet libero at dapibus. Maecenas sodales tristique massa vel volutpat. Etiam augue est, congue sed nibh ac, viverra tempus enim. Maecenas quis auctor lacus. Aliquam sed risus vel ipsum sodales auctor.
+                <br>
+                Sed ex risus, faucibus ac nunc ac, commodo hendrerit nisl. Quisque maximus enim quis lacus cursus vestibulum. Praesent ultrices nec velit vel consequat. Quisque ullamcorper et enim nec dapibus. Donec in enim commodo, tincidunt nibh sit amet, sagittis nisi. Suspendisse et leo ornare, molestie ipsum quis, fermentum felis. Nam faucibus euismod tristique.<br>
+                Interested? Let me know →</p>
+                <img class="img-fluid py-2" src="../images/img-project-1/img-project_02.jpg">
+                <img class="img-fluid py-2" src="../images/img-project-1/img-project_03.jpg">
+                <img class="img-fluid py-2" src="../images/img-project-1/img-project_04.jpg">
+                <img class="img-fluid py-2" src="../images/img-project-1/img-project_05.jpg">
+                <img class="img-fluid py-2" src="../images/img-project-1/img-project_06.jpg">
+                <img class="img-fluid py-2" src="../images/img-project-1/img-project_07.jpg">
+            </div>
         </div>
-    </footer>
-    <!-- FIN FOOTER -->   
+    </section>
+    <!-- ==================== END PROJECT ==================== -->
 
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-dark justify-content-center">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 justify-content-center">
+                    <a href="../index.html" class="d-flex w-50 me-auto"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="w-100"></a>  
+                </div>
+
+                <div class="col-lg-3 col-md-6 justify-content-center">
+                    <ul class="list-unstyled mb-0">
+                        <li class="pb-4">
+                            <a href="../pages/portfolio.html" class="text-light text-decoration-none text-uppercase">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="../pages/contact.html" class="text-light text-decoration-none text-uppercase">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 justify-content-center">
+                    <p class="text-light">SUBSCRIBE TO MY NEWSLETTER</p>
+                    <div class="input-group">
+                        <input type="email" class="form-control bg-dark text-light" placeholder="Enter your email">
+                        <button class="btn bg-light text-center" type="submit" id="button-addon2"><i class="fa fa-paper-plane text-dark" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 justify-content-center text-center">
+                    <a class="text-light px-3" href="#"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                    <a class="text-light px-3" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a class="text-light px-3" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 pt-5 bg-dark">
+            <p class="text-light">© 2021 Copyright: <a class="text-light" href="https://ivanabraz.com/">ivanabraz.com</a></p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- ==================== FIN FOOTER ==================== -->
+
+
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <!-- BOOTSTRAP -->
+    <script src="../js/bootstrap.min.js" ></script>
+    <!-- ==================== FIN SCRIPTS ==================== -->
 </body>
 </html>

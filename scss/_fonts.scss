@@ -1,0 +1,49 @@
+@font-face {
+src: url('../fonts/FontAwesome.otf');
+font-family: 'FontAwesome';}
+
+@font-face {
+src: url('../fonts/GrandSlang-B-Side.woff2') format('woff2');
+font-family: 'GrandSlang-B-Side';}
+
+@font-face {
+src: url('../fonts/GrandSlang-Roman.woff2') format('woff2');
+font-family: 'GrandSlang-Roman';}
+
+@font-face {
+src: url('../fonts/GrandSlang-Italic.woff2') format('woff2');
+font-family: 'GrandSlang-Italic';}
+
+@font-face {
+src: url('../fonts/Resolution-Regular.woff') format('woff');
+font-family: 'Resolution-Regular';}
+
+@font-face {
+src: url('../fonts/Resolution-Medium.woff') format('woff');
+font-family: 'Resolution-Medium';}
+
+@font-face {
+src: url('../fonts/Resolution-Bold.woff') format('woff');
+font-family: 'Resolution-Bold';}
+
+@font-face {
+src: url('../fonts/Resolution-Black.woff') format('woff');
+font-family: 'Resolution-Black';}
+
+.font1-decoration {  
+    font-family: 'GrandSlang-B-Side';}
+
+.font1-regular {  
+    font-family: 'GrandSlang-Roman';}
+
+.font1-italic {  
+    font-family: 'GrandSlang-Italic';}
+
+.font2-regular {  
+    font-family: 'Resolution-Regular';}
+
+.font2-bold {  
+    font-family: 'Resolution-Bold';}
+
+.font2-black {  
+    font-family: 'Resolution-Black';}

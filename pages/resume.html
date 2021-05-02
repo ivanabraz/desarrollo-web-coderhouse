@@ -3,167 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+    <!-- FONT AWESOME -->
     <link rel="stylesheet" href="../css/font-awesome.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>    
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
     <title>Resume</title>
 </head>
 
 
-<body class="bodyblack">
-    <!-- NAV -->
-    <nav class="navigation" role="navigation" aria-label="Menu">
-        <ul class="nav-black">
-            <li>
-                <a href="../index.html" target="_self"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="nav-logo"></a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" class="nav-black" href="../index.html" target="_self">Home</a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" href="portfolio.html" target="_self">Portfolio</a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu nav-active" href="resume.html" target="_self">Resume</a>
-            </li>
-            <li>
-                <a class="nav-black nav-menu" href="contact.html" target="_self">Contact</a>
-            </li>
-            <li>
-                <a class="nav-black social-media-white"  href="https://www.behance.net/IvanaBraz" target="_blank" title="Behance"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
-            </li>
-            <li>
-                <a class="nav-black social-media-white"  href="http://linkedin.com/in/ivana-agustina-braz-5bb3a055" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </li>
-            <li title="Instagram">
-                <a class="nav-black social-media-white"  href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-    </nav>
-    <!-- FIN NAV -->
+<body class="body--dark">
 
-    <p class="title-resume">Resume</p>
-
-    <!-- PARALLAX SVG -->
-    <img src="../images/misc_3_c.svg" alt="" class="misc-3-c parallax" data-speed="1.1">
-    <img src="../images/misc_4_c.svg" alt="" class="misc-4-c parallax" data-speed="1.2">
-    <img src="../images/misc_5_c.svg" alt="" class="misc-5-c parallax" data-speed="1">
-    <img src="../images/misc_6_c.svg" alt="" class="misc-6-c parallax" data-speed="1.1">
-    <img src="../images/misc_7_c.svg" alt="" class="misc-7-c parallax" data-speed="1.2">
-    <img src="../images/misc_8_c.svg" alt="" class="misc-8-c parallax" data-speed="1">
-    <script src="../js/parallax.js"></script>  
-    <!-- FIN PARALLAX SVG -->
-
-
-        
-    <!-- RESUME -->
-    <div class="resume-wrapper">
-        <div class="resume-item-1">
-            <span id="hello-resume"></span>
-        </div>
-        <div class="resume-item-2">
-            <p class="resume-txt-bio">My name is Ivana Braz, I'm a multidisciplinary designer based in Buenos Aires.</p>
-        </div>
-        
-        <div class="resume-item-3">
-            <p class="resume-txt-categories">Education</p>
-            <p class="resume-txt-base"><span>Front-end Developer</span><br>
-                <em>February 2020 - Present</em><br>
-                Coderhouse</p>
-            <p class="resume-txt-base"><span>Graphic Designer</span><br>
-                <em>Graduate 2018</em><br>
-                Universidad de Palermo.</p>
-            <p class="resume-txt-base"><span>Photography</span><br>
-                <em>Graduate 2013</em><br>
-                Escuela Municipal de Fotografía, Berazategui.</p>
-            <p class="resume-txt-base"><span>Photographic Designer</span><br>
-                <em>Graduate 2013</em><br>
-                Universidad de Palermo.</p>
-            <p class="resume-txt-base"><span>Bachelor of Natural Sciences</span><br>
-                <em>Graduate 2009</em><br>
-                Instituto Eugenio Pacelli</p>
-        </div>
-            <div class="resume-item-4">
-            <p class="resume-txt-categories">Other courses</p>
-            <p class="resume-txt-base"><span>Course: JQuery</span><br>
-                <em>December 2013</em><br>
-                EducaciónIT</p>
-            <p class="resume-txt-base"><span>Course: Search Engine Optimization</span><br>
-                <em>November 2013</em><br>
-                EducaciónIT</p>
-            <p class="resume-txt-base"><span>Course: CSS layout</span><br>
-                <em>October 2013</em><br>
-                EducaciónIT</p>
-            <p class="resume-txt-base"><span>Course: HTML layout</span><br>
-                <em>August 2013</em><br>
-                EducaciónIT</p>
-        </div>
-        <div class="resume-item-5">
-            <p class="resume-txt-categories">Work experience</p>
-            <p class="resume-txt-base"><span>Teatro Colón</span><br>
-                <em>Graphic Designer</em><br>
-                (2017 - Present)</p>
-            <p class="resume-txt-base"><span>Lorenzo Shakespear Diseño</span><br>
-                <em>Graphic Designer</em><br>
-                (2016-2017)</p>
-            <p class="resume-txt-base"><span>Freelancer</span><br>
-                <em>Graphic design & photography</em><br>
-                (2016-2015)</p>
-        </div>
-        <div class="resume-item-6">
-            <p class="resume-txt-categories">Languages</p>
-            <p class="resume-txt-base"><span>Spanish</span> — Native</p>
-            <p class="resume-txt-base"><span>English</span> — Intermediate</p>
-            <p class="resume-txt-base"><span>Polish</span> — Basic</p>
-        </div>
-        <div class="resume-item-7">
-            <p class="resume-txt-categories">Recognitions</p>
-            <p class="resume-txt-base"><span>GráficoPalermo Pedagogical Project</span><br>
-                <em>Second place (2014)</em><br>
-                Graphic Production<br>
-                Universidad de Palermo</p>
-            <p class="resume-txt-base"><span>Professional Presentations Project</span><br>
-                <em>Second place (2013)</em><br>
-                Advertising I<br>
-                Universidad de Palermo</p>
-            <p class="resume-txt-base"><span>Fotopalermo Pedagogical Project</span><br>
-                <em>Second place (2012)</em><br>
-                Photography Workshop III<br>
-                Universidad de Palermo</p>
-            <p class="resume-txt-base"><span>Fotopalermo Pedagogical Project</span><br>
-                <em>Frist place (2013)</em><br>
-                Editorial Workshop II<br>
-                Universidad de Palermo</p>
-        </div>
-        <div class="resume-item-8">
-            <p class="resume-txt-bio-secondary">With a passion for experimental design, I am in constant flux. Influenced by brutalism, art, architecture and the unceasing mutation of Mother Nature.</p>
-        </div>
-    </div>
-    <!-- FIN RESUME -->
-
-    <!-- FOOTER  -->
-    <footer>
-        <div class="footer-container">       
-            <div class="logo-footer">
-                <a href="../index.html" target="_self"><img src="../images/logo2.svg" alt="Ivana Braz logo"></a>
+    <!-- ==================== NAVBAR ==================== -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-center p-5">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand d-flex w-50 me-auto"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="w-25"></a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                    <ul class="navbar-nav w-100 justify-content-center">
+                        <li class="nav-item active px-4">
+                            <a class="nav-link text-light text-uppercase" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light text-uppercase" href="../pages/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light text-decoration-underline text-uppercase" href="../pages/resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link text-light text-uppercase" href="../pages/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav ms-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <ul class="menu-footer">
-                <li class="menu-footer"><a href="portfolio.html" target="_self">Portfolio</a></li>
-                <li class="menu-footer"><a href="contact.html" target="_self">Contact</a></li>
-            </ul>
-            <div class="newsletter">
-                <p>Subscribe to my newsletter</p><br>
-                <input type="text" placeholder="name@example.com" name="mail" required class="newsletter-email"><button type="submit" value="Submit" class="newsletter-button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-            </div>
-            <ul class="redes-footer">
-                <li class="redes-footer"><a href="https://www.behance.net/IvanaBraz" target="_blank" title="Behance"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
-                <li class="redes-footer"><a href="http://linkedin.com/in/ivana-agustina-braz-5bb3a055" target="_blank" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                <li class="redes-footer" title="Instagram"><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
+        </nav>
+    </header>
+    <!-- ==================== FIN NAVBAR ==================== -->
+
+
+    <!-- ==================== RESUME ==================== -->
+    <section class="resume p-5">
+
+        <!-- PARALLAX SVG -->
+        <img src="../images/misc_3_c.svg" alt="miscelanea" class="misc-3-c parallax" data-speed="1.1">
+        <img src="../images/misc_4_c.svg" alt="miscelanea" class="misc-4-c parallax" data-speed="1.2">
+        <img src="../images/misc_5_c.svg" alt="miscelanea" class="misc-5-c parallax" data-speed="1">
+        <img src="../images/misc_6_c.svg" alt="miscelanea" class="misc-6-c parallax" data-speed="1.1">
+        <img src="../images/misc_7_c.svg" alt="miscelanea" class="misc-7-c parallax" data-speed="1.2">
+        <img src="../images/misc_8_c.svg" alt="miscelanea" class="misc-8-c parallax" data-speed="1">
+        <script src="../js/parallax.js"></script>  
+        <!-- FIN PARALLAX SVG -->
+
+        <div class="container">
+            <h1 class="text-center text-light">Resume</h1>
+            <!-- GRILLA -->
+            <div class="container col-10 p-5">
+                <div class="row p-5">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <span id="hello-resume" class="text-light font1-decoration"></span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <p class="fs-3 text-light font1-decoration">My name is Ivana Braz, I'm a multidisciplinary designer based in Buenos Aires.</p>
+                        <p class="fs-5 text-light">With a passion for experimental design, I am in constant flux. Influenced by brutalism, art, architecture and the unceasing mutation of Mother Nature.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 p-5 border border-white">
+                        <h2 class="fs-4 text-light py-3">Education</h2>
+                        <p class="text-light"><span class="fw-bold">Front-end Developer</span><br>
+                            <em>February 2020 - Present</em><br>
+                            Coderhouse</p>
+                        <p class="text-light"><span class="fw-bold">Graphic Designer</span><br>
+                            <em>Graduate 2018</em><br>
+                            Universidad de Palermo.</p>
+                        <p class="text-light"><span class="fw-bold">Photography</span><br>
+                            <em>Graduate 2013</em><br>
+                            Escuela Municipal de Fotografía, Berazategui.</p>
+                        <p class="text-light"><span class="fw-bold">Photographic Designer</span><br>
+                            <em>Graduate 2013</em><br>
+                            Universidad de Palermo.</p>
+                        <p class="text-light"><span class="fw-bold">Bachelor of Natural Sciences</span><br>
+                            <em>Graduate 2009</em><br>
+                            Instituto Eugenio Pacelli</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 p-5 border border-white">
+                        <h2 class="fs-4 text-light py-3">Other courses</h2>
+                        <p class="text-light"><span class="fw-bold">Course: JQuery</span><br>
+                        <em>December 2013</em><br>
+                        EducaciónIT</p>
+                        <p class="text-light"><span class="fw-bold">Course: Search Engine Optimization</span><br>
+                        <em>November 2013</em><br>
+                        EducaciónIT</p>
+                        <p class="text-light"><span class="fw-bold">Course: CSS layout</span><br>
+                        <em>October 2013</em><br>
+                        EducaciónIT</p>
+                        <p class="text-light"><span class="fw-bold">Course: HTML layout</span><br>
+                        <em>August 2013</em><br>
+                        EducaciónIT</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 border border-white">
+                        <div class="col-12 p-5">
+                            <h2 class="fs-4 text-light py-3">Work experience</h2>
+                            <p class="text-light"><span class="fw-bold">Teatro Colón</span><br>
+                            <em>Graphic Designer</em><br>
+                            (2017 - Present)</p>
+                            <p class="text-light"><span class="fw-bold">Lorenzo Shakespear Diseño</span><br>
+                            <em>Graphic Designer</em><br>
+                            (2016-2017)</p>
+                            <p class="text-light"><span class="fw-bold">Freelancer</span><br>
+                            <em>Graphic design & photography</em><br>
+                            (2016-2015)</p>
+                        </div>
+
+                        <div class="row border-top border-white">
+                            <div class="col-lg-6 col-md-6 col-sm-12 p-5">
+                                <h2 class="fs-4 text-light py-3">Languages</h2>
+                                <p class="text-light"><span class="fw-bold">Spanish</span> — Native</p>
+                                <p class="text-light"><span class="fw-bold">English</span> — Intermediate</p>
+                                <p class="text-light"><span class="fw-bold">Polish</span> — Basic</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 p-5 border border-white">
+                        <h2 class="fs-4 text-light py-3">Recognitions</h2>
+                        <p class="text-light"><span class="fw-bold">GráficoPalermo Pedagogical Project</span><br>
+                        <em>Second place (2014)</em><br>
+                        Graphic Production<br>
+                        Universidad de Palermo</p>
+                        <p class="text-light"><span class="fw-bold">Professional Presentations Project</span><br>
+                        <em>Second place (2013)</em><br>
+                        Advertising I<br>
+                        Universidad de Palermo</p>
+                        <p class="text-light"><span class="fw-bold">Fotopalermo Pedagogical Project</span><br>
+                        <em>Second place (2012)</em><br>
+                        Photography Workshop III<br>
+                        Universidad de Palermo</p>
+                        <p class="text-light"><span class="fw-bold">Fotopalermo Pedagogical Project</span><br>
+                        <em>Frist place (2013)</em><br>
+                        Editorial Workshop II<br>
+                        Universidad de Palermo</p>
+                    </div>
+                </div>
+            <!-- FIN GRILLA -->
         </div>
-    </footer>
-    <!-- FIN FOOTER -->   
+    </section>
+    <!-- ==================== FIN RESUME ==================== -->
+
+
+
+    <!-- ==================== FOOTER ==================== -->
+        <footer class="bg-dark justify-content-center">
+            <div class="container pt-5 pb-5">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 justify-content-center">
+                        <a href="../index.html" class="d-flex w-50 me-auto"><img src="../images/logo2.svg" alt="Ivana Braz logo" class="w-100"></a>  
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 justify-content-center">
+                        <ul class="list-unstyled mb-0">
+                            <li class="pb-4">
+                                <a href="../pages/portfolio.html" class="text-light text-decoration-none text-uppercase">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="../pages/contact.html" class="text-light text-decoration-none text-uppercase">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 justify-content-center">
+                        <p class="text-light">SUBSCRIBE TO MY NEWSLETTER</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control bg-dark text-light" placeholder="Enter your email">
+                            <button class="btn bg-light text-center" type="submit" id="button-addon2"><i class="fa fa-paper-plane text-dark" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 justify-content-center text-center">
+                        <a class="text-light px-3" href="#"><i class="fa fa-behance-square" aria-hidden="true"></i></a>
+                        <a class="text-light px-3" href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a class="text-light px-3" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center p-3 pt-5 bg-dark">
+                <p class="text-light">© 2021 Copyright: <a class="text-light" href="https://ivanabraz.com/">ivanabraz.com</a></p>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    <!-- ==================== FIN FOOTER ==================== -->
+
+
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <!-- BOOTSTRAP -->
+    <script src="../js/bootstrap.min.js" ></script>
+    <!-- ==================== FIN SCRIPTS ==================== -->
 
 </body>
 </html>

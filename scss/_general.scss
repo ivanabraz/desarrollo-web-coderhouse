@@ -1,0 +1,31 @@
+/* GENERAL */
+@media (min-width: 768px) {
+    .navbar .navbar-collapse {
+        text-align: center;}}
+
+.body--light {
+    background-image: url(../images/noise.png);
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    background-color: $gray-100;
+    overflow-x: hidden;
+    margin: 0;}
+
+.body--dark {
+    background-image: url(../images/noise.png);
+    background-repeat: repeat;
+    background-blend-mode: multiply;
+    background-color: $black;
+    overflow-x: hidden;
+    margin: 0;}
+
+#header {  
+    top: 0;
+    left: 0;
+    width: 100vw;}
+
+
+.img-fluid--hover:hover {
+    transform: scale(1.11);
+    transition-duration: 1s;}
+

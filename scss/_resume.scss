@@ -1,0 +1,61 @@
+
+    /* ============================== RESUME ============================== */
+    /* RESUME MISCELANEAS */
+    .misc-3-c, .misc-4-c, .misc-5-c, .misc-6-c, .misc-7-c, .misc-8-c {
+        width: 25%;
+        position: absolute;
+        opacity: 20%;}
+    
+    .misc-3-c {
+        top:0%;
+        z-index:1;
+        left:-5%;}
+    
+    .misc-4-c {
+        top:65%;
+        z-index:1;
+        left:-8%;}
+    
+    .misc-5-c {
+        top:105%;
+        z-index:1;
+        left:-5%;}
+    
+    .misc-6-c {
+        top:-5%;
+        z-index:1;
+        right:-8%;}
+    
+    .misc-7-c {
+        top:65%;
+        z-index:1;
+        right:-5%;}
+    
+    .misc-8-c {
+        top:110%;
+        z-index:1;
+        right:-5%;}
+    
+    
+    
+    /* RESUME SPINNING TXT */
+    #hello-resume {
+        font-size: 80px;}
+    
+    #hello-resume:after {
+        content:"";
+        animation: spin3 20s linear infinite;}
+    
+    @keyframes spin3 {
+        0% { content:"Hi!";}
+        10% { content:"Hola!";}
+        20% { content:"Cześć!";}
+        30% { content:"Olá!";}
+        40% { content:"Ciao!";}
+        50% { content:"Bonjour!";}
+        60% { content:"Guten Tag!";}
+        70% { content:"Hei!";}
+        80% { content:"Hallo!";}
+        90% { content:"Hej!";}
+        100% { content:"안녕하세요";}}
+    
