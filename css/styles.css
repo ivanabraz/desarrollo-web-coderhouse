@@ -50,10 +50,6 @@
   font-family: 'Resolution-Black'; }
 
 /* GENERAL */
-@media (min-width: 768px) {
-  .navbar .navbar-collapse {
-    text-align: center; } }
-
 .body--light {
   background-image: url(../images/noise.png);
   background-repeat: repeat;
@@ -149,62 +145,6 @@
 .misc--hover:hover {
   transform: scale(1.11);
   transition-duration: 1s; }
-
-@media (min-width: 1400px) {
-  .misc_1--dark {
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: auto;
-    inset: 350px auto auto 50px; }
-  .misc_2--dark {
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: auto;
-    inset: -130px auto auto 250px;
-    transform: rotate(-25deg); }
-  .misc_3--dark {
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: auto;
-    inset: 300px auto auto 1100px; }
-  .misc_4--dark {
-    position: absolute;
-    z-index: 1;
-    width: 20%;
-    height: auto;
-    inset: -100px auto auto 920px;
-    transform: rotate(50deg); } }
-
-@media (min-width: 1920px) {
-  .misc_1--dark {
-    position: absolute;
-    z-index: 1;
-    width: 10%;
-    height: auto;
-    inset: 600px auto auto 80px; }
-  .misc_2--dark {
-    position: absolute;
-    z-index: 1;
-    width: 10%;
-    height: auto;
-    inset: 150px auto auto 300px;
-    transform: rotate(-25deg); }
-  .misc_3--dark {
-    position: absolute;
-    z-index: 1;
-    width: 10%;
-    height: auto;
-    inset: 600px auto auto 2100px; }
-  .misc_4--dark {
-    position: absolute;
-    z-index: 1;
-    width: 10%;
-    height: auto;
-    inset: 100px auto auto 2000px;
-    transform: rotate(25deg); } }
 
 /* ============================== RESUME ============================== */
 /* RESUME MISCELANEAS */
@@ -7840,3 +7780,86 @@ textarea.form-control-lg {
     display: inline-flex !important; }
   .d-print-none {
     display: none !important; } }
+
+/* ============================== GENERAL ============================== */
+@media (max-width: 576px) {
+  .nav-logo {
+    width: 60% !important;
+    height: auto; }
+  .navbar .navbar-collapse {
+    text-align: center; }
+  #spin1 {
+    font-size: 15vw; }
+  #spin2 {
+    font-size: 15vw; }
+  .misc_1--dark {
+    display: none; }
+  .misc_2--dark {
+    display: none; }
+  .misc_3--dark {
+    display: none; }
+  .misc_4--dark {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .nav-logo {
+    width: 50% !important;
+    height: auto; }
+  .navbar .navbar-collapse {
+    text-align: center; } }
+
+@media (min-width: 1400px) {
+  .misc_1--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset: 350px auto auto 50px; }
+  .misc_2--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset: -130px auto auto 250px;
+    transform: rotate(-25deg); }
+  .misc_3--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset: 300px auto auto 1100px; }
+  .misc_4--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset: -100px auto auto 920px;
+    transform: rotate(50deg); } }
+
+@media (min-width: 1920px) {
+  .misc_1--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset: 600px auto auto 80px; }
+  .misc_2--dark {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    inset: 150px auto auto 300px;
+    transform: rotate(-25deg); }
+  .misc_3--dark {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    inset: 600px auto auto 2100px; }
+  .misc_4--dark {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    inset: 100px auto auto 2000px;
+    transform: rotate(25deg); } }

@@ -1,0 +1,116 @@
+/* ============================== GENERAL ============================== */
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { 
+    .nav-logo{
+        width: 60% !important;
+        height: auto;}
+
+    .navbar .navbar-collapse {
+        text-align: center;}
+
+    #spin1 {
+        font-size: 15vw;}
+
+    #spin2 {
+        font-size: 15vw;}
+
+    .misc_1--dark {
+        display: none;}
+    
+    .misc_2--dark {
+        display: none;}
+    
+    .misc_3--dark {
+        display: none;}
+    
+    .misc_4--dark {
+        display: none;}
+}
+
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .nav-logo{
+        width: 50% !important;
+        height: auto;}
+
+    .navbar .navbar-collapse {
+        text-align: center;}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { 
+.misc_1--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset:350px auto auto 50px;}
+
+.misc_2--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset:-130px auto auto 250px;
+    transform: rotate(-25deg);}
+
+.misc_3--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset:300px auto auto 1100px;}
+
+.misc_4--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset:-100px auto auto 920px;
+    transform: rotate(50deg);}
+}
+
+// XXX-Large devices (larger desktops, 1920px and up)
+@media (min-width: 1920px) {
+.misc_1--dark {
+    position: absolute;
+    z-index: 1;
+    width: 15%;
+    height: auto;
+    inset:600px auto auto 80px;}
+
+.misc_2--dark {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    inset:150px auto auto 300px;
+    transform: rotate(-25deg);}
+
+.misc_3--dark {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    inset:600px auto auto 2100px;}
+
+.misc_4--dark {
+    position: absolute;
+    z-index: 1;
+    width: 10%;
+    height: auto;
+    inset:100px auto auto 2000px;
+    transform: rotate(25deg);}
+}
