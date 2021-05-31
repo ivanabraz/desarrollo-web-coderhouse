@@ -7784,7 +7784,7 @@ textarea.form-control-lg {
 /* ============================== GENERAL ============================== */
 @media (max-width: 576px) {
   .nav-logo {
-    width: 60% !important;
+    width: 50% !important;
     height: auto; }
   .navbar .navbar-collapse {
     text-align: center; }
@@ -7799,7 +7799,9 @@ textarea.form-control-lg {
   .misc_3--dark {
     display: none; }
   .misc_4--dark {
-    display: none; } }
+    display: none; }
+  .p-5 {
+    padding: 0.5rem !important; } }
 
 @media (min-width: 768px) {
   .nav-logo {
